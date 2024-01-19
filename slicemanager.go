@@ -2,13 +2,6 @@ package slicemanager
 
 import "fmt"
 
-func Hello() {
-	fmt.Println("hello")
-}
-
-/*
-
-require string slice and index to remove
 
 
 func RemoveString(slice []string, index int) []string {
@@ -16,8 +9,6 @@ func RemoveString(slice []string, index int) []string {
 	return append(slice[:index], slice[index+1:]...) // it take content in slice until the index passed and append every content after the index to it, ... is used for pass element in second slice one by one
 }
 
-
-require string slice,index where insert string and the string to insert
 
 func InsertString(slice []string, index int, s string) []string {
 	var ns []string
@@ -47,4 +38,3 @@ func insert_string(slice []string, index int, s string) []string {
 	return ns
 }
 
-*/
